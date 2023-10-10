@@ -1,0 +1,62 @@
+{
+  "bot-account": {
+    "username": "Bot",
+    "password": "",
+    "type": ""
+  },
+
+  "server": {
+    "ip": "gakmodal.aternos.me",
+    "port": 57809,
+    "version": "1.19.3"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false,
+      "jump": false,
+      "rotate": true,
+
+      "hit": {
+        "enabled": false,
+        "delay": 1000,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": false,
+        "radius": 2
+      }
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "If you see someone breaking the rules, use (/report) to report them. ",
+        "Happy playing, I hope you like this server. ",
+        "If you need help or want to report a bug, please use (/report). ",
+        "Be careful at every step of your journey "
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 300
+  }
+}
